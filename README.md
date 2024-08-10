@@ -9,3 +9,6 @@ This is a submod for "Monster Girl Mutations" by RobbieNeko that adds milking fo
 Thank you to RobbieNeko and RoyalFox for their help in Discord!
 
 (❁´◡`❁)
+
+Installation instructions:
+Download zip and move the folder into the data/mods folder
