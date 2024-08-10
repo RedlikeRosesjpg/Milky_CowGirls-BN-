@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "MilkyCowgirls",
+    "name": "MilkyCowgirls",
+    "authors": [ "PlateDisk" ],
+    "maintainers": [ "PlateDisk" ],
+    "description": "A submod for MonsterGirls. Adds a missing feature for cowgirls. (Milking.)",
+    "category": "content",
+    "dependencies": [ "bn", "MonsterGirls" ]
+  }
+]

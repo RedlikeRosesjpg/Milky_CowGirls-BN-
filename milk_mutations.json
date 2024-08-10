@@ -1,0 +1,14 @@
+[
+  {
+    "type": "mutation",
+    "id": "milky",
+    "name": { "str": "Milky" },
+    "points": 3,
+    "description": "You are now capable of producing milk when you have excess nutrients, which can be stored in containers or drunk directly. Takes some thirst and hunger.",
+	"spells_learned": [ [ "gc_milking", 1 ] ],
+    "prereqs": [ "RUMINANT" ],
+    "category": [ "COWGIRL" ],
+    "active": false,
+	"metabolism_modifier": 0.2
+  }
+]

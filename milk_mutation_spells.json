@@ -1,0 +1,43 @@
+[
+  {
+    "id": "gc_milking",
+    "type": "SPELL",
+    "name": { "str": "Milking" },
+    "description": "Draws milk from the body.",
+    "valid_targets": [ "self" ],
+    "effect": "spawn_item",
+    "effect_str": "milk",
+    "spell_class": "NONE",
+    "flags": [ "NO_LEGS", "NO_FAIL", "PERMANENT" ],
+	"base_energy_cost": 200,
+    "energy_source": "STAMINA",
+	"extra_effects": [ { "id": "gc_milkdrained" }, { "id": "gc_milkdrained_stam" }  ]
+  },
+  {
+    "id": "gc_milkdrained",
+    "type": "SPELL",
+    "name": { "str": "Drained Milk" },
+    "description": "Milk is drained.",
+    "valid_targets": [ "self" ],
+    "effect": "target_attack",
+    "effect_str": "milk_drained",
+    "spell_class": "NONE",
+    "flags": [ "SILENT", "NO_LEGS", "NO_FAIL", "PERMANENT", "NO_EXPLOSION_VFX" ],
+    "energy_source": "NONE"
+  },
+  {
+    "id": "gc_milkdrained_stam",
+    "type": "SPELL",
+    "name": { "str": "Drained Milk" },
+    "description": "Milk is drained.",
+    "valid_targets": [ "self" ],
+    "effect": "target_attack",
+    "effect_str": "milk_drained_stam",
+    "spell_class": "NONE",
+    "flags": [ "NO_LEGS", "NO_FAIL", "PERMANENT", "NO_EXPLOSION_VFX" ],
+    "min_duration": 105000,
+    "max_duration": 195000,
+    "duration_increment": 3000,
+    "energy_source": "NONE"
+  }
+]

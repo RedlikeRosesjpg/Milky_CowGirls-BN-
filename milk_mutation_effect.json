@@ -1,0 +1,26 @@
+[
+  {
+    "type": "effect_type",
+    "id": "milk_drained",
+    "name": [ "Drained" ],
+    "desc": [ "Getting milked is draining." ],
+    "rating": "bad",
+    "base_mods": { 
+		"thirst_amount": [ 30 ], 
+		"hunger_amount": [ 30 ] 
+	}
+  },
+  {
+    "type": "effect_type",
+    "id": "milk_drained_stam",
+    "name": [ "Recent Milking" ],
+    "desc": [ "You feel a bit tired from your recent milking." ],
+	"apply_message": "Getting milked is draining.",
+	"remove_message": "You feel full again.",
+    "rating": "bad",
+	"max_duration": "5 m",
+    "base_mods": { 
+		"stamina_chance": [ -4 ]  
+	}
+  }
+]
